@@ -1,0 +1,7 @@
+<h3>Conditions</h3> <br>
+
+{%if request.user.is_authenticated%}
+You're a user
+{%else%}
+You're not a user
+{%endif%}

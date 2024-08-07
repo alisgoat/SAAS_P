@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+
+    
+      {%block title%}
+      SAAS
+      {%endblock title%}
+  
+    
+    <p>
+        <div style="color:rgb(61, 61, 164);">to reference any key, use double curly braces</div>
+        {{get_page}}</p>
+
+   <div style="color:rgb(44, 123, 81);"> use "block-endblock" if you want to edit a part on other inheriting files<br>
+here "content" is the name of the block </div>
+{%block content %} 
+ <h1>hello </h1>
+{%endblock content %}
+
+
+    
+  </body>
+</html>
